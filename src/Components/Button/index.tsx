@@ -3,7 +3,7 @@ import {IButton} from './types'
 
 const Button = ({title, onClick}: IButton )=>{
     return(
-        <ButtonLogin onClick={onClick}>
+        <ButtonLogin type='submit' onClick={onClick} >
             {title}
         </ButtonLogin>
     );
